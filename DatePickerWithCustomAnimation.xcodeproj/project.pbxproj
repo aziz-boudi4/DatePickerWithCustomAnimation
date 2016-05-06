@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F6AE5031CDC198D0046E649 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6AE5021CDC198D0046E649 /* AppDelegate.swift */; };
+		8F6AE5051CDC198D0046E649 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6AE5041CDC198D0046E649 /* ViewController.swift */; };
+		8F6AE5081CDC198D0046E649 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6AE5061CDC198D0046E649 /* Main.storyboard */; };
+		8F6AE50A1CDC198D0046E649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6AE5091CDC198D0046E649 /* Assets.xcassets */; };
+		8F6AE50D1CDC198D0046E649 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6AE50B1CDC198D0046E649 /* LaunchScreen.storyboard */; };
+		8FF322981CDC237000A2521C /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF322971CDC237000A2521C /* DatePickerView.xib */; };
+		8FF3229A1CDC238B00A2521C /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF322991CDC238B00A2521C /* DatePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F6AE4FF1CDC198D0046E649 /* DatePickerWithCustomAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerWithCustomAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6AE5021CDC198D0046E649 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F6AE5041CDC198D0046E649 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F6AE5071CDC198D0046E649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F6AE5091CDC198D0046E649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F6AE50C1CDC198D0046E649 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F6AE50E1CDC198D0046E649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF322971CDC237000A2521C /* DatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerView.xib; sourceTree = "<group>"; };
+		8FF322991CDC238B00A2521C /* DatePickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F6AE4FC1CDC198D0046E649 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F6AE4F61CDC198D0046E649 = {
+			isa = PBXGroup;
+			children = (
+				8F6AE5011CDC198D0046E649 /* DatePickerWithCustomAnimation */,
+				8F6AE5001CDC198D0046E649 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F6AE5001CDC198D0046E649 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F6AE4FF1CDC198D0046E649 /* DatePickerWithCustomAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F6AE5011CDC198D0046E649 /* DatePickerWithCustomAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8F6AE5021CDC198D0046E649 /* AppDelegate.swift */,
+				8F6AE5041CDC198D0046E649 /* ViewController.swift */,
+				8F6AE5061CDC198D0046E649 /* Main.storyboard */,
+				8FF322971CDC237000A2521C /* DatePickerView.xib */,
+				8FF322991CDC238B00A2521C /* DatePickerView.swift */,
+				8F6AE5091CDC198D0046E649 /* Assets.xcassets */,
+				8F6AE50B1CDC198D0046E649 /* LaunchScreen.storyboard */,
+				8F6AE50E1CDC198D0046E649 /* Info.plist */,
+			);
+			path = DatePickerWithCustomAnimation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F6AE4FE1CDC198D0046E649 /* DatePickerWithCustomAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F6AE5111CDC198D0046E649 /* Build configuration list for PBXNativeTarget "DatePickerWithCustomAnimation" */;
+			buildPhases = (
+				8F6AE4FB1CDC198D0046E649 /* Sources */,
+				8F6AE4FC1CDC198D0046E649 /* Frameworks */,
+				8F6AE4FD1CDC198D0046E649 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickerWithCustomAnimation;
+			productName = DatePickerWithCustomAnimation;
+			productReference = 8F6AE4FF1CDC198D0046E649 /* DatePickerWithCustomAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F6AE4F71CDC198D0046E649 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jogabo;
+				TargetAttributes = {
+					8F6AE4FE1CDC198D0046E649 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8F6AE4FA1CDC198D0046E649 /* Build configuration list for PBXProject "DatePickerWithCustomAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F6AE4F61CDC198D0046E649;
+			productRefGroup = 8F6AE5001CDC198D0046E649 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F6AE4FE1CDC198D0046E649 /* DatePickerWithCustomAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F6AE4FD1CDC198D0046E649 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F6AE50D1CDC198D0046E649 /* LaunchScreen.storyboard in Resources */,
+				8F6AE50A1CDC198D0046E649 /* Assets.xcassets in Resources */,
+				8FF322981CDC237000A2521C /* DatePickerView.xib in Resources */,
+				8F6AE5081CDC198D0046E649 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F6AE4FB1CDC198D0046E649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF3229A1CDC238B00A2521C /* DatePickerView.swift in Sources */,
+				8F6AE5051CDC198D0046E649 /* ViewController.swift in Sources */,
+				8F6AE5031CDC198D0046E649 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F6AE5061CDC198D0046E649 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6AE5071CDC198D0046E649 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F6AE50B1CDC198D0046E649 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F6AE50C1CDC198D0046E649 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F6AE50F1CDC198D0046E649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F6AE5101CDC198D0046E649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F6AE5121CDC198D0046E649 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DatePickerWithCustomAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogabo.DatePickerWithCustomAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F6AE5131CDC198D0046E649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DatePickerWithCustomAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jogabo.DatePickerWithCustomAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F6AE4FA1CDC198D0046E649 /* Build configuration list for PBXProject "DatePickerWithCustomAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6AE50F1CDC198D0046E649 /* Debug */,
+				8F6AE5101CDC198D0046E649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F6AE5111CDC198D0046E649 /* Build configuration list for PBXNativeTarget "DatePickerWithCustomAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F6AE5121CDC198D0046E649 /* Debug */,
+				8F6AE5131CDC198D0046E649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F6AE4F71CDC198D0046E649 /* Project object */;
+}
