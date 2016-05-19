@@ -50,5 +50,41 @@
             </objects>
             <point key="canvasLocation" x="305" y="359"/>
         </scene>
+        <!--View Controller2-->
+        <scene sceneID="rQo-EY-1oZ">
+            <objects>
+                <viewController id="EUe-jF-kvk" customClass="ViewController2" customModule="DatePickerWithCustomAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1mQ-Go-tMK"/>
+                        <viewControllerLayoutGuide type="bottom" id="SPK-c6-F2f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MsM-aP-DMN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yde-oo-53I">
+                                <rect key="frame" x="137" y="108" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7Vx-q8-Al9"/>
+                                    <constraint firstAttribute="width" constant="46" id="zEK-w1-ZOa"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="showDatePicker:" destination="EUe-jF-kvk" eventType="touchUpInside" id="DfL-AM-Pxi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Yde-oo-53I" firstAttribute="top" secondItem="1mQ-Go-tMK" secondAttribute="bottom" constant="88" id="ONb-aL-bHI"/>
+                            <constraint firstItem="Yde-oo-53I" firstAttribute="centerX" secondItem="MsM-aP-DMN" secondAttribute="centerX" id="OY7-Ww-gUB"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KUg-8c-FZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="717" y="359"/>
+        </scene>
     </scenes>
 </document>

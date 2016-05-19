@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DatePickerView2" customModule="DatePickerWithCustomAnimation" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="yLc-G3-1JR">
+                    <rect key="frame" x="0.0" y="46" width="600" height="554"/>
+                    <date key="date" timeIntervalSinceReferenceDate="484264276.58192903">
+                        <!--2016-05-06 21:51:16 +0000-->
+                    </date>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f4l-EJ-655">
+                    <rect key="frame" x="555" y="8" width="37" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="udP-ls-fb9"/>
+                    </constraints>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="doneButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="vbe-yr-ojn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yLc-G3-1JR" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3mm-So-044"/>
+                <constraint firstItem="f4l-EJ-655" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="YAH-Fe-kZ3"/>
+                <constraint firstAttribute="bottom" secondItem="yLc-G3-1JR" secondAttribute="bottom" id="f5H-LF-qfR"/>
+                <constraint firstItem="yLc-G3-1JR" firstAttribute="top" secondItem="f4l-EJ-655" secondAttribute="bottom" constant="8" id="o4q-s9-ESC"/>
+                <constraint firstAttribute="trailing" secondItem="f4l-EJ-655" secondAttribute="trailing" constant="8" id="tdK-iS-HkU"/>
+                <constraint firstAttribute="trailing" secondItem="yLc-G3-1JR" secondAttribute="trailing" id="wWZ-Jl-0Xw"/>
+            </constraints>
+            <connections>
+                <outlet property="datePicker" destination="yLc-G3-1JR" id="LRh-qC-VfY"/>
+            </connections>
+        </view>
+    </objects>
+</document>

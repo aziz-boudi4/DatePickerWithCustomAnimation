@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
+
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -34,8 +35,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     print("cell tapped")
+    selectTime()
 
   }
 
+  private func selectTime() {
+    DatePickerView2.showInView(view)
+  }
 }
 
